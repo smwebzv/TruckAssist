@@ -1,0 +1,9 @@
+{
+  "name": "carrier",
+  "displayName": "carrier",
+  "icon": "./src/assets/logo/BlueCarrier.png",
+  "android": {
+    "googleServicesFile":"./google-services.json",
+    "package": "com.carrierassist.app"
+  }
+}

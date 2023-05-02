@@ -1,0 +1,96 @@
+import Active from "../assets/icons/active.svg";
+import Pending from "../assets/icons/pending.svg";
+import Closed from "../assets/icons/closed.svg";
+
+export const loadList = [
+  {
+    id: 1,
+    name: "No Active Load",
+    description: "Contact dispatch team",
+    // status: "No Active Load",
+    image: <Active />,
+  },
+  {
+    id: 2,
+    name: "Pending Load",
+    description: "Find stops with best deal",
+    count: 3,
+    image: <Pending />,
+  },
+  {
+    id: 3,
+    name: "Closed Load",
+    description: "History of truck repairs",
+    count: 234,
+    image: <Closed />,
+  },
+];
+
+export const locationList = [
+  {
+    id: 1,
+    name: "Watco Supply Chain Services",
+    location1: "Boca Raton, FL 59870",
+    location2: "Springdale, AR 727053",
+    numberLoad: 365887,
+    time1: "Today, 12:00 PM",
+    time2: "Tomorrow, 03:40 PM",
+    pickupNumber: 2,
+    deliveryNumber: 1,
+  },
+  {
+    id: 2,
+    name: "Becker Logistics, LLC",
+    location1: "Kennesaw, GA 30136",
+    location2: "North Little Rock, AR 72116",
+    numberLoad: 365887,
+    time1: "Tomorrow, 07:00 PM",
+    time2: "Wed 22 Nov, 11:40 AM",
+    pickupNumber: 1,
+    deliveryNumber: 2,
+  },
+  {
+    id: 3,
+    name: "Becker Logistics, LLC",
+    location1: "Springdale, AR 72762",
+    location2: "Carol Stream, IL 60188",
+    numberLoad: 365887,
+    time1: "Fri 24 Nov, 07:00 PM",
+    time2: "Mon 27 Nov, 03:40 AM",
+    pickupNumber: 3,
+    deliveryNumber: 3,
+  },
+  {
+    id: 4,
+    name: "Cor Freight LLC.",
+    location1: "Jacksonvile, ND 98750",
+    location2: "Springdale, AR 72705",
+    numberLoad: 365887,
+    time1: "Thu 30 Nov , 03:40 PM",
+    time2: "Fri 01 Dec, 03:40 PM",
+    pickupNumber: 2,
+    deliveryNumber: 3,
+  },
+  {
+    id: 5,
+    name: "Anthym Logistics, LLC",
+    location1: "Boca Raton, FL 59870",
+    location2: "Kennesaw, GA 30136",
+    numberLoad: 365887,
+    time1: "Wed 06 Dec, 09:00 AM",
+    time2: "Wed 06 Dec, 03:40 PM",
+    pickupNumber: 1,
+    deliveryNumber: 1,
+  },
+  {
+    id: 6,
+    name: "Cor Freight LLC.",
+    location1: "North Little Rock, AR 72116",
+    location2: "Carol Stream, IL 60188",
+    numberLoad: 365887,
+    time1: "Fri 08 Dec, 06:00 AM",
+    time2: "Sun 10 Dec, 05:30 PM",
+    pickupNumber: 1,
+    deliveryNumber: 4,
+  },
+];
